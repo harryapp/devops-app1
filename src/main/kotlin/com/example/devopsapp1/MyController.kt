@@ -11,7 +11,7 @@ class MyController {
     // test
     @GetMapping("/api/hello")
     fun hello(): ResponseEntity<String> {
-        return ResponseEntity("hello, you", HttpStatus.OK)
+        return ResponseEntity("hello, you 1", HttpStatus.OK)
         // comment 1
     }
 
