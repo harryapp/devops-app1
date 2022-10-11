@@ -15,9 +15,7 @@ class MyController {
         // comment 1
     }
 
-    @GetMapping("/")
-    fun test(): ResponseEntity<String> {
-        return ResponseEntity("test", HttpStatus.OK)
-    }
+
+
 
 }
