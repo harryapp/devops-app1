@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController
 @RestController
 @RequestMapping("/api")
 class MyController {
-
+    // test
     @GetMapping("/hello")
     fun hello(): ResponseEntity<String>{
         return ResponseEntity("hello", HttpStatus.OK)
