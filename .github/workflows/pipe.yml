@@ -1,7 +1,7 @@
 name: my build
 on:
   push:
-    branches: [main]
+    branches: main
 
 jobs:
   build-with-maven:
