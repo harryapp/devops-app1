@@ -9,6 +9,8 @@ jobs:
   build:
     name: Build and Run Tests
     runs-on: ubuntu-latest
+    timeout-minutes: 2
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v1
